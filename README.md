@@ -3,7 +3,7 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+This project demonstrates the deployment of Windows and Linux virtual machines in Microsoft Azure to analyze network traffic using Wireshark. Common network protocols, including ICMP, SSH, DHCP, DNS, and RDP, are examined while Azure Network Security Groups (NSGs) are configured to observe how firewall rules affect network communication. <br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -71,10 +71,9 @@ Observe the ICMP traffic in WireShark and the command-line Ping activity (for no
 <p>
 <img width="1074" height="510" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/5faa6f39-d86d-4c85-ad1a-4dcc313cb6e3" />
 Now re-enable ICMP traffic for the Network Security Group on your Ubuntu VM
-  
-  - Observe the ICMP traffic on the Windows VM as it starts back up 
-  
-  - Stop the ping
+
+- Observe the ICMP traffic on the Windows VM as it starts back up 
+- Stop the ping
 </p>
 
 <p>
@@ -122,7 +121,7 @@ Open PowerShell as admin and run: ipconfig /renew
 
 </p>
 <p>
-Observe the DHCP traffic appearing in WireShark
+- Observe the DHCP traffic appearing in WireShark
 </p>
 
 <br />
